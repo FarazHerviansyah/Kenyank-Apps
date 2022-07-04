@@ -1,0 +1,115 @@
+/*Small devices*/
+@media only screen and (max-width: 649px) {
+    .col-1, .col-2, .col-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .logo {
+      margin-left: 15px;
+    }
+  
+    .item-sp {
+      margin-right: 15px;
+    }
+  
+    .item-icon-menu {
+      font-size: 22px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+  
+    .breadcrumb {
+      display: none;
+    }
+  
+    .img-banner > img {
+      border-radius: 0;
+      box-shadow: none;
+    }
+  
+    .food-card {
+      margin: 0 12px;
+    }
+  
+    .food-title,
+    .drink-title,
+    .review-title {
+      margin-left: 10px;
+    }
+  
+    #containerFavorite {
+      margin-top: 30px;
+    }
+  
+    .btn-favorite {
+      margin-top: -13px;
+    }
+  
+    .fav-h1, .fav-div {
+      text-align: center;
+    }
+  
+    .img-error {
+      width: 250px;
+    }
+  
+    .text-error {
+      font-size: 18px;
+    }   
+  }
+
+/*Medium devices*/
+@media only screen and (min-width: 650px) {
+    .col-4, .col-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .logo {
+      margin-left: 0;
+    }
+  
+    #contentbody {
+      margin-top: 40px;
+    }
+  
+    .breadcrumb {
+      display: block;
+    }
+  }
+
+/*Large devices*/
+@media only screen and (min-width: 960px) {
+    .col-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .col-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .logo {
+      margin-left: 0;
+    }
+  }
+
+/*Extra large devices*/
+@media only screen and (min-width: 1200px) {
+    .col-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+    .col-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .logo {
+      margin-left: 0;
+    }
+  }
+  
